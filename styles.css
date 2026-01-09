@@ -253,6 +253,130 @@ section h2 {
   gap: 20px;
 }
 
+.donors {
+  display: grid;
+  gap: 24px;
+}
+
+.donors-header p {
+  color: var(--gray-700);
+  max-width: 520px;
+}
+
+.donor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.donor-card {
+  display: grid;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+}
+
+.donor-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.donor-name {
+  font-weight: 600;
+}
+
+.donor-tier {
+  font-size: 14px;
+  color: var(--gray-500);
+}
+
+.google span {
+  font-weight: 700;
+}
+
+.g-blue {
+  color: #4285f4;
+}
+
+.g-red {
+  color: #ea4335;
+}
+
+.g-yellow {
+  color: #fbbc05;
+}
+
+.g-green {
+  color: #34a853;
+}
+
+.microsoft {
+  gap: 12px;
+}
+
+.ms-logo {
+  display: grid;
+  grid-template-columns: repeat(2, 12px);
+  grid-template-rows: repeat(2, 12px);
+  gap: 2px;
+}
+
+.ms-square {
+  width: 12px;
+  height: 12px;
+  display: block;
+}
+
+.ms-red {
+  background: #f25022;
+}
+
+.ms-green {
+  background: #7fba00;
+}
+
+.ms-blue {
+  background: #00a4ef;
+}
+
+.ms-yellow {
+  background: #ffb900;
+}
+
+.ms-text {
+  font-weight: 600;
+  color: #5e5e5e;
+}
+
+.amazon {
+  color: #111111;
+  text-transform: lowercase;
+  position: relative;
+  font-weight: 700;
+}
+
+.amazon::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  bottom: -6px;
+  height: 3px;
+  border-radius: 999px;
+  background: #ff9900;
+}
+
+.tencent {
+  color: #2f67c7;
+  font-weight: 700;
+}
+
 .site-footer {
   background: var(--blue-900);
   color: var(--white);
